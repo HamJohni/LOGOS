@@ -1,0 +1,107 @@
+.map{
+  background: url("../img/map.png") center/cover no-repeat;
+  padding: 267px 0 40px;
+
+  &__contacts{
+    max-width: 526px;
+    width: 100%;
+    background: #2E2B2C;
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 25px 45px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__info{
+    margin: 26px 0 17px;
+    padding: 15px 0 28px;
+    border-top: 1px solid #FFFFFF15;
+    border-bottom:  1px solid #FFFFFF15;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    &-address{
+      display: flex;
+      column-gap: 15px;
+    }
+
+    &-street{
+      display: flex;
+      flex-direction: column;
+      row-gap: 4px;
+      cursor: pointer;
+      &:hover{
+        color: orange;
+        transform: scale(1.03);
+      }
+    }
+    &-dot{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #CFCFCF;
+    }
+  }
+  &__contact{
+    display: flex;
+    column-gap: 15px;
+    margin: 17px 0 30px;
+    text-align: center;
+    &-btn{
+      column-gap: 32px;
+      border-radius: 10px;
+      display: flex;
+      border:none;
+      align-items: center;
+      background: linear-gradient(113.93deg, #618967 5.11%, #72A479 94%);
+      cursor: pointer;
+      padding: 16px 24px 16px 24px;
+
+      &:hover{
+        background: orange;
+        transform: scale(1.07);
+      }
+
+      &:active{
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        transition: .2s;
+        transform: scale(0.9);
+      }
+    }
+    &-tel{
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 28px;
+      color: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 18px;
+
+    &-text{
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+    }
+    &-link{
+      &:hover{
+        transform: scale(1.3);
+        background: orange;
+        border-radius: 10px;
+      }
+    }
+  }
+}

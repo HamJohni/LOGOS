@@ -1,0 +1,88 @@
+.add{
+  margin: 50px auto;
+  width: 800px;
+
+
+  &__block{
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #333;
+    &-price{
+      width: calc(50% - 50px);
+    }
+
+    &-cal{
+      display: flex;
+      column-gap: 40px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &-input{
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+    &-box{
+      display: flex;
+      align-items: center;
+      column-gap: 50px;
+    }
+  }
+
+  &__title{
+    text-align: center;
+    margin-bottom: 1px;
+    background: #2E2B2C;
+    padding: 20px;
+  }
+  &__input{
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+
+    &-cal{
+      width:calc(33% - 20px );
+    }
+
+    &-textarea{
+      background: transparent;
+      resize: none;
+      padding: 10px;
+      border: 1px solid white;
+      width: calc(60% - 50px);
+      height: 80px;
+      &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+    }
+    &-price{
+      display: flex;
+      flex-direction: column;
+    }
+    &-title{
+      width: calc(50% - 50px);
+    }
+  }
+
+
+  &__select{
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 5px;
+  }
+  &__option{
+    background: #2E2B2C;
+    border: 1px solid white;
+    color: white;
+
+  }
+
+  &__btn{
+    width: 70%;
+    margin: 0 auto 30px;
+  }
+}

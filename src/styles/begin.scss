@@ -1,0 +1,26 @@
+.begin{
+    padding: 77px 0 123px;
+    background: url("../img/begin__bg.png") center/cover no-repeat;
+    &__content{
+        width: 60%;
+        text-align: center;
+        transform: rotate(-8.37deg);
+    }
+
+    &__title{
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 109.2%;
+        text-transform: uppercase;
+        filter: drop-shadow( -6px 3px 0px rgb(114, 164, 121) );
+
+    }
+    &__question{
+        width: 170px;
+        padding: 6px 8px;
+        margin:40px auto 0;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        filter: drop-shadow(4px 4px  rgb(114, 164, 121) );
+
+    }
+}

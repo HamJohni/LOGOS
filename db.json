@@ -1,0 +1,419 @@
+{
+  "users": [
+    {
+      "email": "malik@mail.ru",
+      "password": "$2a$10$Jx6.XwmGwwdnPm1NC667x.kflT9ubJ1WNqmme8ExIvHW67fxVici2",
+      "id": 2
+    },
+    {
+      "email": "nurs.pacan@list.ru",
+      "password": "$2a$10$Y8YIk5RErePXx90p3zcyPuz8apRQRdGs7Nwhbs/xJXAzIExKxmtT2",
+      "id": 3
+    },
+    {
+      "email": "erzhan.7704@mail.ru",
+      "password": "$2a$10$HsNmHfam67YgleqzZShd6uPjp6QuP4t3plEtf7LsFapVxQ6sMmDxK",
+      "id": 4
+    },
+    {
+      "email": "muha.pacan@list.ru",
+      "password": "$2a$10$Wssd7Tm3.kCEk.O2o240MuAYa4qGVl4d7/nwvXpVYAVGbAOgWekfq",
+      "id": 5
+    },
+    {
+      "email": "joni.pacan@list.ru",
+      "password": "$2a$10$klENcvnt6wVmVAsKI5zyI.MigauLyJl0DiOIELS3ABSs9IIuQoFm6",
+      "id": 6
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "image": "./assets/sales/bg1.png",
+      "title": "Без мяса? Здесь!",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту», \nпиццу «Овощи и грибы», Пасту Четыре сыра, Томатный \nсуп с гренками, Грибной Стартер, Рулетики с сыром, \nКартофель из печи, Картофельные оладьи или Греческий \nсалат. Выберите свой вкус!",
+      "date": "до 31 июля"
+    },
+    {
+      "id": 2,
+      "image": "./assets/sales/bg2.png",
+      "title": "Выгодное комбо c напитками",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту», \nпиццу «Овощи и грибы», Пасту Четыре сыра, Томатный \nсуп с гренками, Грибной Стартер, Рулетики с сыром, \nКартофель из печи, Картофельные оладьи или Греческий \nсалат. Выберите свой вкус!",
+      "date": "до 31 июля"
+    },
+    {
+      "id": 3,
+      "image": "./assets/sales/bg3.png",
+      "title": "Сырный бортик",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту», \nпиццу «Овощи и грибы», Пасту Четыре сыра, Томатный \nсуп с гренками, Грибной Стартер, Рулетики с сыром, \nКартофель из печи, Картофельные оладьи или Греческий \nсалат. Выберите свой вкус!",
+      "date": "до 31 июля"
+    },
+    {
+      "id": 4,
+      "image": "./assets/sales/bg2.png",
+      "title": "Выгодное комбо c напитками",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту», \nпиццу «Овощи и грибы», Пасту Четыре сыра, Томатный \nсуп с гренками, Грибной Стартер, Рулетики с сыром, \nКартофель из печи, Картофельные оладьи или Греческий \nсалат. Выберите свой вкус!",
+      "date": "до 31 июля"
+    },
+    {
+      "id": 5,
+      "image": "./assets/sales/bg3.png",
+      "title": "Сырный бортик",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту», \nпиццу «Овощи и грибы», Пасту Четыре сыра, Томатный \nсуп с гренками, Грибной Стартер, Рулетики с сыром, \nКартофель из печи, Картофельные оладьи или Греческий \nсалат. Выберите свой вкус!",
+      "date": "до 31 июля"
+    },
+    {
+      "id": 6,
+      "image": "./assets/sales/bg1.png",
+      "title": "Без мяса? Здесь!",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту», \nпиццу «Овощи и грибы», Пасту Четыре сыра, Томатный \nсуп с гренками, Грибной Стартер, Рулетики с сыром, \nКартофель из печи, Картофельные оладьи или Греческий \nсалат. Выберите свой вкус!",
+      "date": "до 31 июля"
+    }
+  ],
+  "delivery": [
+    {
+      "id": 1,
+      "title": "У наших курьеров всегда должна быть сдача!",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 2,
+      "title": "Вам что-то не довезли?",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 3,
+      "title": "Не понравился продукт?",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 4,
+      "title": "Если появились замечания",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 5,
+      "title": "Оплата Visa, MasterCard и МИР",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 6,
+      "title": "Реквизиты",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000011_17.jpg?itok=9lSm9_fz",
+      "title": "Тигровые креветки",
+      "description": "Сочные тигровые креветки, обжаренные с ароматным чесноком и со свежей петрушкой",
+      "price": 1150,
+      "weight": 150,
+      "protein": 29.12,
+      "fats": 53.32,
+      "carbs": 2.47,
+      "cal": 601.32,
+      "category": "hot"
+    },
+    {
+      "id": 2,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400002083.jpg?itok=D0fdYvg0",
+      "title": "Томленый козленок",
+      "description": "Тушеный козленок с овощами и соусом Демиглас, баклажаном и баклажанной икрой, кинзой и перцем чили",
+      "price": 1600,
+      "weight": 580,
+      "protein": 55,
+      "fats": 46,
+      "carbs": 11,
+      "cal": 687,
+      "category": "hot"
+    },
+    {
+      "id": 3,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400000288_18.jpg?itok=zhn6fXK_",
+      "title": "Треска в винном соусе",
+      "description": "Треска в винном соусе с помидорами черри и базиликом",
+      "price": 1050,
+      "weight": 270,
+      "cal": 620,
+      "protein": 25,
+      "fats": 53,
+      "carbs": 3,
+      "category": "hot"
+    },
+    {
+      "id": 4,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000007_18.jpg?itok=c-2CKZeA",
+      "title": "Шампиньоны с чесноком",
+      "description": "Запеченные с ароматным чесноком и сыром Пекорино свежие шампиньоны",
+      "price": 495,
+      "weight": 140,
+      "cal": 569,
+      "protein": 10,
+      "fats": 58,
+      "carbs": 2,
+      "category": "hot"
+    },
+    {
+      "id": 5,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400000356_34.jpg?itok=UnQcN2m3",
+      "title": "Шашлык из телятины",
+      "description": "Телятина на гриле, баклажан на гриле, перец болгарский на гриле, томат, красный лук с зеленью. Подается с кинзой и аджикой",
+      "price": 1250,
+      "weight": 420,
+      "cal": 771,
+      "protein": 61,
+      "fats": 50,
+      "carbs": 16,
+      "category": "hot"
+    },
+    {
+      "id": 6,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400000355_18.jpg?itok=4raEwc0-",
+      "title": "Шашлык куриный",
+      "description": "Курица, баклажан и болгарский перец на гриле, томаты, красный лук, зелень",
+      "price": 790,
+      "weight": 420,
+      "cal": 1023,
+      "protein": 50,
+      "fats": 85,
+      "carbs": 13,
+      "category": "hot"
+    },
+    {
+      "id": 7,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400002085.jpg?itok=DDsD_Plh",
+      "title": "Венский шницель",
+      "description": "Шницель из телятины с зеленым салатом из рукколы, шпината, мангольда и малосольных огурцов",
+      "price": 1230,
+      "weight": 430,
+      "cal": 437,
+      "protein": 50,
+      "fats": 15,
+      "carbs": 25,
+      "category": "hot"
+    },
+    {
+      "id": 8,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400002084.jpg?itok=yHUlDP2N",
+      "title": "Филе камбалы",
+      "description": "Филе черноморской камбалы, белое вино, сливочное масло, оливки, чеснок, помидоры и базилик",
+      "price": 1100,
+      "weight": 320,
+      "cal": 259,
+      "protein": 43,
+      "fats": 7,
+      "carbs": 3,
+      "category": "hot"
+    },
+    {
+      "id": 9,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000062_20.jpg?itok=RhtiMTwO",
+      "title": "Салат с печёными овощами",
+      "description": "Запеченные баклажаны, кабачки, перец, помидоры черри, оливковое масло и домашняя Моцарелла",
+      "price": 690,
+      "weight": 270,
+      "cal": 456,
+      "protein": 21,
+      "fats": 34,
+      "carbs": 17,
+      "category": "salad"
+    },
+    {
+      "id": 10,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100004594_0.jpg?itok=sie2EGJm",
+      "title": "Салат с хурмой и Риккотой",
+      "description": "Салат со спелой хурмой, козьей Рикоттой, листьями мини-шпината и салата айсберг с заправкой на основе горчицы, оливкового масла и апельсинового фреша",
+      "price": 750,
+      "weight": 320,
+      "cal": 677,
+      "protein": 51,
+      "fats": 47,
+      "carbs": 12,
+      "category": "salad"
+    },
+    {
+      "id": 11,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000040_46.jpg?itok=639dBKzN",
+      "title": "Пицца Маргарита",
+      "description": "Пицца с домашней Моцареллой и помидорами",
+      "price": 550,
+      "weight": 550,
+      "cal": 1263,
+      "protein": 53,
+      "fats": 47,
+      "carbs": 155,
+      "category": "pizza"
+    },
+    {
+      "id": 12,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000044_19.jpg?itok=T8zYdlc4",
+      "title": "Пицца Пепперони",
+      "description": "Пицца со слайсами пикантной Пепперони, томатным соусом и домашней Моцареллой",
+      "price": 690,
+      "weight": 580,
+      "cal": 1561,
+      "protein": 64,
+      "fats": 76,
+      "carbs": 154,
+      "category": "pizza"
+    },
+    {
+      "id": 13,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000036_17.jpg?itok=EokAOZwJ",
+      "title": "Ньокки с томленой уткой",
+      "description": "Картофельные ньокки с томленой уткой, свежей зеленью и сыром Пармезан",
+      "price": 770,
+      "weight": 300,
+      "cal": 1367,
+      "protein": 32,
+      "fats": 100,
+      "carbs": 81,
+      "category": "pasta"
+    },
+    {
+      "id": 14,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000038_18.jpg?itok=jr7Mzr4V",
+      "title": "Паппарделле со шпинатом и креветками",
+      "description": "Паста паппарделле ручной работы с тигровыми креветками и соусом из свежего шпината и домашней Страчателлы",
+      "price": 1150,
+      "weight": 400,
+      "cal": 743,
+      "protein": 26,
+      "fats": 63,
+      "carbs": 16,
+      "category": "pasta"
+    },
+    {
+      "id": 15,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400000302_17.jpg?itok=YmpEjReL",
+      "title": "Фреш гранатовый",
+      "description": "Свежевыжатый гранатовый сок",
+      "price": 900,
+      "weight": 300,
+      "cal": 443,
+      "protein": 8,
+      "fats": 0,
+      "carbs": 118,
+      "category": "drink"
+    },
+    {
+      "id": 16,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400000301_19.jpg?itok=eJZQ2TRc",
+      "title": "Фреш апельсиновый",
+      "description": "Свежевыжатый апельсиновый сок",
+      "price": 450,
+      "weight": 300,
+      "cal": 108,
+      "protein": 3,
+      "fats": 1,
+      "carbs": 24,
+      "category": "drink"
+    },
+    {
+      "id": 17,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000045_17.jpg?itok=GWsMYSJk",
+      "title": "Лапша куриная",
+      "description": "Бульон с нежным куриным филе, домашней лапшой, овощами и зеленью",
+      "price": 440,
+      "weight": 400,
+      "cal": 280,
+      "protein": 16,
+      "fats": 18,
+      "carbs": 13,
+      "category": "soup"
+    },
+    {
+      "id": 18,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000047_21.jpg?itok=9BQz-Pob",
+      "title": "Сырный суп с беконом и брокколи",
+      "description": "Нежный крем-суп со сливочным сыром, картофелем, морковью, сливками, сыром Пармезан, чипсами из бекона и брокколи. Приправлен ароматным орегано, чёрным свежемолотым перцем и оливковым маслом",
+      "price": 490,
+      "weight": 360,
+      "cal": 415,
+      "protein": 44,
+      "fats": 11,
+      "carbs": 97,
+      "category": "soup"
+    },
+    {
+      "id": 19,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000000_17.jpg?itok=8p6IKKG2",
+      "title": "Гречка с молодой капустой",
+      "description": "Рассыпчатая ароматная гречка с молодой капустой, тушенная в насыщенном бульоне",
+      "price": 390,
+      "weight": 290,
+      "cal": 1000,
+      "protein": 16,
+      "fats": 78,
+      "carbs": 82,
+      "category": "garnish"
+    },
+    {
+      "id": 20,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/100000002_17.jpg?itok=1MwFr3iA",
+      "title": "Картофель, жаренный с луком",
+      "description": "Обжаренные дольки картофеля с луком и ароматной зеленью",
+      "price": 390,
+      "weight": 300,
+      "cal": 889,
+      "protein": 6,
+      "fats": 75,
+      "carbs": 47,
+      "category": "garnish"
+    },
+    {
+      "id": 21,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400000607_5.jpg?itok=Y3eBbz-C",
+      "title": "Ватрушка с творогом и брусникой",
+      "description": "Ватрушка из слоеного теста с творогом и брусникой",
+      "price": 320,
+      "weight": 200,
+      "cal": 278,
+      "protein": 13,
+      "fats": 5,
+      "carbs": 43,
+      "category": "dessert"
+    },
+    {
+      "id": 22,
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400001175_17.jpg?itok=lTzA40D0",
+      "title": "Хурма с кофейным кремом",
+      "description": "Хурма с кофейным кремом",
+      "price": 550,
+      "weight": 240,
+      "cal": 362,
+      "protein": 4,
+      "fats": 16,
+      "carbs": 50,
+      "category": "dessert"
+    },
+    {
+      "title": "Томаты с авокадо и муссом из шпината",
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400000280_16.jpg?itok=MR1eFXqk",
+      "price": "810",
+      "weight": "310",
+      "description": "Розовые томаты, шпинат, авокадо, Страчателла, руккола",
+      "protein": "7",
+      "fats": "41",
+      "carbs": "9",
+      "category": "salad",
+      "cal": 433,
+      "id": 23
+    },
+    {
+      "title": "Пицца с трюфелем",
+      "image": "https://api.syrovarnya.com/sites/default/files/styles/image_690x690/public/catalog/400002092.jpg?itok=v4nGjE7a",
+      "price": "1580",
+      "weight": "470",
+      "description": "Пицца из дровяной печи с начинкой из сыра Рикотта и Моцарелла с добавлением слайсов черного трюфеля, поливается оливковым маслом",
+      "protein": "12",
+      "fats": "78",
+      "carbs": "23",
+      "category": "pizza",
+      "cal": 842,
+      "id": 24
+    }
+  ]
+}

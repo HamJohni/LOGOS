@@ -1,0 +1,241 @@
+.basket{
+  padding: 34px 0 89px;
+  background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+  min-height: 100vh;
+  height: 100%;
+  &__back{
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+      color: orange;
+      transform: scale(1.05);
+    }
+  }
+
+  &__title{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin:20px 0 71px;
+  }
+
+  &__count{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #72A479;
+    transform: translateY(15%);
+  }
+
+  &__items{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  &__item{
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    display: flex;
+    align-items: center;
+    padding:20px 40px 20px 20px;
+    position: relative;
+
+
+    &-img{
+      max-width: 120px;
+      width: 100%;
+      border-radius: 10px;
+      margin-right: 40px ;
+    }
+
+    &-info{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+      max-width: 600px;
+      width: 70%;
+    }
+
+    &-title{
+      font-size: 18px;
+      line-height: 22px;
+    }
+    &-desc{
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #A6A7AB;
+    }
+
+    &-btns{
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+    }
+
+    &-btn{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: #72A479;
+      cursor: pointer;
+
+      &:hover{
+        transform: scale(1.07);
+        background: orange;
+      }
+
+      &:active{
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        transform: scale(0.9);
+        transition: .2s;
+      }
+    }
+
+    &-price{
+      font-size: 20px;
+      line-height: 24px;
+      width: 250px;
+      text-align: center;
+    }
+
+    &-count{
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+
+  &__suggest{
+    padding: 40px 0 30px;
+    border-bottom: 1px solid #ffffff80;
+
+    &-subtitle{
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+
+    &-items{
+      display: flex;
+      background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+      border-radius: 10px;
+    }
+
+    &-item{
+      padding: 19px 31px 13px 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 10px;
+    }
+
+    &-img{
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    &-title{
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    &-btn{
+      display: flex;
+      align-items: center;
+      column-gap: 7px;
+      background: transparent;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+
+      &:hover{
+        background: #fe8e3990;
+        transform: scale(1.1);
+      }
+      &:active{
+        transform: scale(0.9);
+      }
+    }
+    &-price{
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  &__total{
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    padding: 20px 27px 11px 38px;
+    margin: 49px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-info{
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+    }
+
+    &-price{
+      font-size: 20px;
+      line-height: 24px;
+      display: flex;
+      column-gap: 10px;
+    }
+    &-sub{
+      font-size: 18px;
+      line-height: 21px;
+      color: #A6A7AB;
+    }
+
+    &-free{
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+
+      &-orange{
+        color: orange;
+      }
+      &-green{
+        color: #6FA076;
+      }
+      &-price{
+        display: flex;
+        column-gap: 10px;
+      }
+    }
+
+    &-min{
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    &-btn{
+      background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+      border-radius: 10px;
+      padding: 17px 50px;
+      border: none;
+      cursor: pointer;
+
+      &:hover{
+        background: #fe8e3990;
+        transform: scale(1.1);
+      }
+      &:active{
+        transform: scale(0.9);
+      }
+
+    }
+  }
+}
